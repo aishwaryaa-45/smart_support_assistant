@@ -1,0 +1,59 @@
+Q: What is your return policy?
+A: You can return any unused product within 30 days of delivery for a full refund. Return shipping is free.
+
+Q: How can I track my order?
+A: We send a tracking link via email once your order ships. You can also check order status in 'My Orders'.
+
+Q: What should I do if my product is damaged?
+A: Contact us with a photo of the item. We'll replace it or refund your order.
+
+Q: Do you offer express shipping?
+A: Yes, express shipping is available at checkout for an additional fee.
+
+Q: Do you ship internationally?
+A: Yes, we ship worldwide. Shipping fees and times vary by location.
+
+Q: How do I cancel an order?
+A: You can cancel within 2 hours of placing the order. Contact support immediately.
+
+Q: What payment methods do you accept?
+A: We accept credit/debit cards, PayPal, Apple Pay, and Google Pay.
+
+Q: Can I modify my shipping address after placing an order?
+A: Yes, but only within the first hour. Please contact our team quickly.
+
+Q: What are your customer support hours?
+A: Our support team is available 24/7 via email and live chat.
+
+Q: How can I reset my password?
+A: Click “Forgot Password” on the login page and follow the instructions.
+
+Q: How do I apply a promo code?
+A: Enter the promo code during checkout to apply your discount.
+
+Q: Are gift cards available?
+A: Yes, you can purchase digital gift cards from our website.
+
+Q: Can I get a GST invoice for my purchase?
+A: Yes, contact support with your GST details and order ID.
+
+Q: What is your refund processing time?
+A: Refunds are processed within 5–7 business days after approval.
+
+Q: Do your products come with a warranty?
+A: Yes, all products have a 1-year warranty against manufacturing defects.
+
+Q: Where is your company located?
+A: Our headquarters are in Bangalore, India, with warehouses globally.
+
+Q: Can I schedule delivery for a specific date?
+A: Currently, we do not offer scheduled deliveries.
+
+Q: What if I received the wrong item?
+A: Contact support immediately. We’ll arrange for a free replacement.
+
+Q: Do you support bulk or B2B orders?
+A: Yes, please email sales@example.com for a bulk pricing quote.
+
+Q: What if I missed the delivery?
+A: The courier will attempt redelivery. You can also contact them directly using the tracking info.
