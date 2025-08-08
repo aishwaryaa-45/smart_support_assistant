@@ -12,10 +12,9 @@ from langchain.chains import RetrievalQA
 from langchain_core.language_models import LLM
 from pydantic import PrivateAttr
 
-# Load environment variables (optional if you're setting HF_TOKEN manually)
-# load_dotenv(dotenv_path=".env")
-load_dotenv()  # 👈 this loads .env into environment variables
-HF_TOKEN = os.getenv("HF_TOKEN")# Replace with your actual token
+
+load_dotenv()  
+HF_TOKEN = os.getenv("HF_TOKEN")
 
 if not HF_TOKEN:
     st.error("HF_TOKEN not found. Please set it in a .env file or environment variables.")
