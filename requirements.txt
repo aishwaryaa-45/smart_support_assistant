@@ -9,5 +9,5 @@ torch
 huggingface_hub
 faiss-cpu
 pydantic
- 
+ langchain-huggingface
  
