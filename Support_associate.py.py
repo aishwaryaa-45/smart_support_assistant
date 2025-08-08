@@ -4,7 +4,7 @@ import streamlit as st
 from typing import Optional, List
 from dotenv import load_dotenv
 from huggingface_hub import InferenceClient
-
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import CharacterTextSplitter
@@ -14,7 +14,7 @@ from pydantic import PrivateAttr
 
 
 load_dotenv()  
-HF_TOKEN = os.getenv("HF_TOKEN") or st.secrets.get("HF_TOKEN")
+HF_TOKEN = st.secrets.get("HF_TOKEN")
 
 if not HF_TOKEN:
     st.error("HF_TOKEN not found. Please set it in a .env file or environment variables.")
@@ -33,7 +33,7 @@ for doc in documents:
     print(doc.page_content[:50])
 
 # Embeddings and vector store
-from langchain_huggingface import HuggingFaceEmbeddings
+
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 vectorstore = FAISS.from_documents(docs, embeddings)
 
