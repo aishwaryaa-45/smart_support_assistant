@@ -1,1 +1,13 @@
-streamlitlangchainlangchain-communitylangchain-corepython-dotenvtransformerssentence-transformerstorchhuggingface_hubfaiss-cpupydantic  
+streamlit
+langchain
+langchain-community
+langchain-core
+python-dotenv
+transformers
+sentence-transformers
+torch
+huggingface_hub
+faiss-cpu
+pydantic
+ 
+ 
