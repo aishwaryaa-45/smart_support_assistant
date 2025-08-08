@@ -6,8 +6,8 @@ python-dotenv
 transformers
 sentence-transformers
 torch
-huggingface_hub
+huggingface_hub==0.34.3
 faiss-cpu
 pydantic
- langchain-huggingface
+langchain-huggingface
  
