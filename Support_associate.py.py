@@ -14,7 +14,7 @@ from pydantic import PrivateAttr
 
 
 load_dotenv()  
-HF_TOKEN = os.getenv("HF_TOKEN")
+HF_TOKEN = os.getenv("HF_TOKEN") or st.secrets.get("HF_TOKEN")
 
 if not HF_TOKEN:
     st.error("HF_TOKEN not found. Please set it in a .env file or environment variables.")
